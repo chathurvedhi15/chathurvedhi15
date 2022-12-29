@@ -1,0 +1,35 @@
+gt = eval(input())
+ t = tuple()
+ for i in gt:
+ 	if type(gt) is list:
+ 		for j in i:
+ 			t.append(j)
+ 	else: t.append(i)
+  
+  
+  
+  gt = eval(input())
+ l = []
+ for i in gt:
+ 	if type(i) is list:
+ 		for j in i:
+ 			l.append(j)
+ 	else: l.append(i)
+ print(tuple(l))
+ 
+ 
+ l = eval(input("List: "))
+ counter = 0
+
+ for i in range(len(l)):
+ 	for j in range(len(l[0])):
+ 		if i==j: counter += l[i][j]
+
+ print(counter)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
