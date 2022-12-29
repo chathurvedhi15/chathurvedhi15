@@ -1,0 +1,62 @@
+stl = input()
+stu = stl.upper()
+print(stl[0], ord(stu[0]), end = ' ', sep = '')
+print(stl[1], ord(stu[1]), end = ' ', sep = '')
+print(stl[2], ord(stu[2]), end = ' ', sep = '')
+print(stl[3], ord(stu[3]), end = ' ', sep = '')
+print()
+
+
+
+
+
+
+st = input()
+ print(chr(ord(st[0]) + 1), end = '')
+ print(chr(ord(st[1]) + 1), end = '')
+ print(chr(ord(st[2]) + 1), end = '')
+ print(chr(ord(st[3]) + 1), end = '')
+ print()
+
+
+
+
+
+
+
+import datetime 
+ tdy = datetime.date.today()
+ byd = datetime.date(2022,1,1)
+ print((tdy-byd).days)
+
+
+
+
+
+
+
+import datetime
+ print(datetime.datetime(1947, 8, 15).weekday())
+
+
+
+
+
+
+import datetime
+ print("Enter birthday in yyyy:mm:dd format: ")
+ bd = datetime.date(int(input()), int(input()), int(input()))
+ tdy = datetime.date.today()
+ days = (tdy-bd).days
+ seconds = days*86400
+ print("days: ", days, "seconds: ", seconds)
+ 
+ 
+ 
+ 
+ 
+ a = int(input())
+ b = int(input())
+ c = int(input())
+ s = (a+b+c)/3
+ print((s*(s-a)*(s-b)*(s-c))**0.5)s
